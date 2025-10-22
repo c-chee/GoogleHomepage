@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Google</title>
+    
+</head>
+
+<body>
+    <!-- JS Link -->
+    <script src="script.js"></script>
+
+    <header>
+        <nav>
+            <!-- Left Side -->
+            <div class = "left-link">
+                <a href = "https://about.google/">About</a>
+                <a href = "https://store.google.com/">Store</a>
+            </div>
+
+            <!-- Right Side -->
+             <div class = "right-link">
+                <a href = "https://accounts.google.com/">Gmail</a>
+                <!-- <a href="https://www.google.com/imghp?hl=en&ogbl">Images</a> -->
+                <a href = "googleImages.html">Images</a>
+
+                <!-- 9 Dot Waffle-->
+                <button id = "waffleButton">
+                    <img src = "images/nine_dots.png">
+                </button>
+
+                <button id = "signIn"><a href="https://accounts.google.com/">Sign In</a></button>
+                
+            </div>
+
+        </nav>
+    </header>
+    
+    <main>
+         <div class = "flex-container">
+            <!-- Logo -->
+            <div id = "google_logo"><img src = "images/google_logo.webp"></div>
+        
+            <div>
+                <!-- Search Bar -->
+                <div class = "search-bar">
+                    <input id = "searchBar" type = "text">
+                </div>
+
+                <!-- Buttons -->
+                <div class = "search-button">
+                    <button id = "googleSearch" class = "searchButton">Google Search</button>
+                    <button id = "luckySearch" class = "searchButton">I'm Feeling Lucky</button>
+                </div>
+
+                <!-- Google Store Link -->
+                <!-- <p>
+                    New! <a href = "https://store.google.com/product/pixel_watch_4?utm_source=search&utm_medium=google_oo&utm_campaign=GS108391&utm_term=exp_id_1&utm_content=hpp&hl=en-US">
+                    Google Pixel Watch 4: Our most advanced Google AI, right on your wrist
+                    </a>
+                </p> -->
+                
+
+            </div>
+        </div>
+         
+    </main>
+
+    <footer>
+        <!-- Left -->
+        <div class = "left-link">
+            <a href = "https://business.google.com/us/google-ads/">Advertising</a>
+            <a href = "https://business.google.com/us/business-profile/">Business</a>
+            <a href = "https://www.google.com/search/howsearchworks/">How Search works</a>
+        </div>
+
+        <!-- Middle -->
+        <div class = "middle-link">
+            <img id = "leaf_img" src = "images/leaf.png">
+            <a href="https://ai.google/societal-impact/">Applying AI towards science and the environment</a>
+        </div>
+
+        <!-- Right -->
+        <div class = "right-link">
+            <a href = "https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+            <a href = "https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+            
+            <!-- Dropdown -->
+            <!-- <p>Settings</p> -->
+            <button id = "setting-button">Settings</button>
+            
+            <div id = "setting-menu" class="hidden">
+                <a href = "https://www.google.com/preferences">Search settiings</a>
+                <a href = "advanced.html">Advanced search</a>
+                <a href = "https://myaccount.google.com/intro/yourdata/search">Your data in Search</a>
+                <a href = "https://www.google.com/history/optout?hl=en&fg=1">Search history</a>
+                <a href = "https://support.google.com/websearch/">Search help</a>
+                
+                <!-- Feedback pop-up form -->
+                <a href = "">Send feedback</a> 
+
+                <!-- Dark theme: OFF -->
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

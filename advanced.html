@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Google</title>
+    
+</head>
+
+<body>
+    <!-- JS Link -->
+    <script src="script.js"></script>
+
+    <header>
+        <nav>
+            <!-- Left Side -->
+            <div class="left-link">
+                <a id = "mini_google" href="index.html"><img src = "images/google_logo.webp"></a>
+            </div>
+
+            <!-- Right Side -->
+            <div class = "right-link">
+                <!-- 9 Dot Waffle-->
+                <button id = "waffleButton">
+                    <img src = "images/nine_dots.png">
+                </button>
+
+                <button id = "signIn"><a href="https://accounts.google.com/">Sign In</a></button>
+                
+            </div>
+
+        </nav>
+    </header>
+    
+    <main class = advanced-page>
+        <div id = "advancedSearch" class = "advanced-container">
+            <h3>Advanced Search</h3>
+
+            <!-- Section One -->
+            <h4>Find pages with...</h4>
+            <form class = "advanced_word">
+                all these words:
+                <input type="" name="" > 
+                <p class = "hint">Type the important words:  tricolor rat terrier</p> <br>
+
+                this exact word or phrase:
+                <input type="" name="" > 
+                <p class = "hint">Put exact words in quotes:  "rat terrier"</p> <br>
+
+                any of these words:
+                <input type="" name="" > 
+                <p class = "hint">Type OR between all the words you want:  miniature OR standard</p> <br>
+
+                none of these words:
+                <input type="" name="" > 
+                <p class = "hint">Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</p> <br>
+
+                numbers ranging from:
+                <input type="" name="" > to <input type="" name="" > 
+                <p class = "hint">Put 2 periods between the numbers and add a unit of measure: 10..35 lb, $300..$500, 2010..2011</p> <br>
+            </form>
+
+            <!-- Section Two -->
+            <h4>Then narrow your results by...</h4>
+            <form class = "advanced_arrow">
+                language:
+                <select id="select_language" name="language">
+                    <option value="any_lang">any language</option>
+                    <option value="en">English</option>
+                    <option value="sp">Spanish</option>
+                </select>
+                <p class = "hint">Find pages in the language you select.</p> <br>
+
+                region:
+                <select id="select_region" name="region">
+                    <option value="any_region">any region</option>
+                </select>
+                <p class = "hint">Find pages published in a particular region.</p><br>
+
+                last update:
+                <select id="select_update" name="update">
+                    <option value="any_time">any time</option>
+                    <option value="any_time">past 24 hours</option>
+                    <option value="any_time">past week</option>
+                    <option value="any_time">past month</option>
+                    <option value="any_time">past year</option>
+                </select>
+                <p class = "hint">Find pages updated within the time you specify.</p><br>
+
+                site or domain:
+                <input type="" name="" >
+                <p class = "hint">Search one site (like  wikipedia.org ) or limit your results to a domain like .edu, .org or .gov</p><br>
+
+                terms appearing:
+                <select id="select_term" name="term">
+                    <option value="in_any">anywhere in the page</option>
+                    <option value="in_title">in the title of the page</option>
+                    <option value="in_text">in the text of the page</option>
+                    <option value="in_url">in the URL of the page</option>
+                    <option value="in_links">in links to the page</option>
+                </select>
+                <p class = "hint">Search for terms in the whole page, page title, or web address, or links to the page you're looking for.</p><br>
+
+                file type:
+                <select id="select_file" name="file">
+                    <option value="any_region">any region</option>
+                </select>
+                <p class = "hint">Find pages in the format you prefer.</p><br>
+
+                <a href= "https://support.google.com/websearch/answer/29508">usage rights:</a>
+                <select id="select_rights" name="usage_rights">
+                    <option value="no_filter">not filtered by license</option>
+                    <option value="useShare">free to use or share</option>
+                    <option value="ussShareCom">free to use or share, even commercially</option>
+                    <option value="useShareMod">free to use or share or modify</option>
+                    <option value="useShareModCom">free to use, share or modify, even commercially</option>
+                </select>
+                <p class = "hint">Find pages you are free to use yourself.</p><p class = "hint"></p><br>
+
+            </form>
+
+            <!-- Advanced Search Button -->
+            <button id = "advancedSearch_button">Advanced Search</button>
+
+            <!-- Section Three -->
+            <h4>You can also...</h4>
+            <a href ="https://support.google.com/websearch/answer/2466433">Find pages that are similar to a URL</a><br>
+            <a href ="https://support.google.com/websearch/answer/54068">Search pages you've visited</a><br>
+            <a href ="https://support.google.com/websearch/answer/2466433">Use operators in the search box</a><br>
+            <a href ="https://www.google.com/preferences?hl=en">Customize your search settings</a><br>
+         
+        </div>
+    </main>
+
+    <footer>
+        <!-- Left -->
+        <div class = "left-link">
+            <a href="https://support.google.com/websearch/">Help</a>
+            <a href="https://policies.google.com/privacy">Privacy</a>
+            <a href="https://policies.google.com/terms">Terms</a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
